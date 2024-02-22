@@ -18,7 +18,7 @@ To run the app on your local machine, follow these steps:
 
 1. **Clone the Repository**: 
 ```bash
-git clone [repository_url]
+git clone https://github.com/fernandoarf/fiap-blog.git
 ```
 2. **Navigate to the Project Directory:**
 ```bash
