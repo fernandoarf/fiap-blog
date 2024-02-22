@@ -22,7 +22,7 @@ git clone https://github.com/fernandoarf/fiap-blog.git
 ```
 2. **Navigate to the Project Directory:**
 ```bash
-cd react-app
+cd fiap-blog
 ```
 3. **Install Dependencies:**
 ```bash
