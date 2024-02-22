@@ -11,12 +11,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home  from './Pages/home';
 import Post from './Pages/post';
+import Posts from './Pages/posts';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/posts" element={<Posts />} />
         <Route path="/post/:slug" element={<Post />} />
         <Route path="*" element={<Home />} />
       </Routes>

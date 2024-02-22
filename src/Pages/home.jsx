@@ -14,7 +14,7 @@ export const Home = () => {
         client
             .getEntries({
                 content_type: 'blogPage',
-                limit: 5,
+                limit: 3,
                 order: "-sys.createdAt"
             })
             .then(function (entries) {
